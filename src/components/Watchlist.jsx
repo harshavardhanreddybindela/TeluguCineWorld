@@ -22,7 +22,7 @@ function Watchlist({ watchlist, setWatchlist, handleRemoveFromWatchlist }) {
   };
 
   const sortIncreasing = () => {
-    console.log("Entering into Increasing");
+    
     let sortedIncreasing = watchlist.sort((movieA, movieB) => {
       return movieA.vote_average - movieB.vote_average;
     });
